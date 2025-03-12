@@ -2,9 +2,11 @@
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.const import Platform
 from homeassistant.core import HomeAssistant
+from homeassistant.helpers import config_validation as cv
 
 DOMAIN = "google_pollen"
 PLATFORMS = [Platform.SENSOR]
+CONFIG_SCHEMA = cv.empty_config_schema  # This helps suppress the warning
 
 async def async_setup(hass: HomeAssistant, config: dict) -> bool:
     """Set up the Google Pollen component."""

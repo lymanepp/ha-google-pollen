@@ -1,13 +1,13 @@
 {
   "domain": "google_pollen",
   "name": "Google pollen",
-  "codeowners": ["@svenove"],
+  "codeowners": ["@lymanepp"],
   "config_flow": true,
   "dependencies": [],
-  "documentation": "https://github.com/svenove/home-assistant-google-pollen",
+  "documentation": "https://github.com/lymanepp/ha-google-pollen",
   "integration_type": "device",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/svenove/home-assistant-google-pollen/issues",
-  "requirements": ["aiohttp", "voluptuous"],
+  "issue_tracker": "https://github.com/lymanepp/ha-google-pollen/issues",
+  "requirements": [],
   "version": "0.20.0"
 }
